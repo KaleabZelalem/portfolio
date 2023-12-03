@@ -1,0 +1,99 @@
+body{
+    background-color:black;
+
+}
+.header {
+    flex: 0 0 60%;
+    font-size: 28px;
+    --bs-text-opacity: 5;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+text-decoration:underline;
+  }
+
+
+.rounded{
+    length: 120px;
+    height: 120px;
+    color:blue;
+}
+
+.nav{
+    color:whitesmoke;
+}
+.nav-item{
+    color:blueviolet;
+}
+.about{
+    margin-right: 5%;
+    margin-left: 5%; 
+     margin-top: 5%;
+}
+
+    
+
+.progress{
+    justify-content: center;
+    display: block;
+    flex-direction: column;
+   width: 70%;
+   margin-top: 2%;
+   margin-left: 15%; 
+   margin-right: 20%;
+   
+}
+#skills{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    margin margin-top: 10%;
+}
+
+.progress-bar{
+    background-color: #e24f45;
+
+}
+.contact{
+    padding: 40px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    flex: 0 0 50%;
+}
+
+.right form input{
+    justify-self: center;
+    display: flex;
+    margin-left: 7%;
+    display: block;
+    outline:  none;
+    border: 2px solid #cccccc;
+    height: 70px;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-left: 100%;
+    margin right: 30%;
+}
+.right form input[type = "submit"]{
+    background-color: #1a1a1a;
+    font-size: 24px;
+    color: #cccccc;
+    border: none;
+    cursor: pointer;
+}
+
+#lead{
+    text color: red;
+}
+
+
+#footer{
+    posotion:absolute;
+    padding: 20px 90px;
+    background-color:black;
+    margin-right: 0%;
+    margin-top: 0;
+}
